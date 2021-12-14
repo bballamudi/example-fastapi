@@ -1,0 +1,9 @@
+{
+  "name": "Python: Module",
+  "type": "python",
+  "request": "launch",
+  "module": "uvicorn",
+  "args": ["app.main:app","--reload"],
+  "justMyCode": false,
+  "python.pythonPath": "../venv/bin/python3.10"
+}
